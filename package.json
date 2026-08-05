@@ -41,6 +41,7 @@
         "gulp-uglify": "3.0.1"
     },
     "scripts": {
-        "test": "echo \"No tests specified\" && exit 0"
+        "build": "gulp",
+        "test": "npm run build"
     }
 }
